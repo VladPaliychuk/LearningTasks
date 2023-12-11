@@ -5,3 +5,6 @@ alert( 2 != 1 ); // true (правильно)
 alert( 'Я' > 'А' ); // true
 alert( 'Соки' > 'Сода' ); // true
 alert( 'Комар' > 'Кома' ); // true
+
+alert( null === undefined ); // false
+alert( null == undefined ); // true
